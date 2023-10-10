@@ -68,6 +68,7 @@ a {
 
 .section-one {
     background: #2E2F42;
+    text-align: center;
 }
 
 .section-h-hero {
@@ -88,7 +89,6 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
-    border-radius: 4px;
     background: #4D5AE5;
     cursor: pointer;
 }
