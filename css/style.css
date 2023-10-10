@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
+    color: #434455;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -22,14 +23,17 @@ a {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
 .a-span {
     color: #2E2F42;
+}
 
+.body-address {
+    font-style: normal;
 }
 
 .nav-page {
@@ -42,6 +46,11 @@ a {
     letter-spacing: 0.32px;
 }
 
+.nav-page:hover,
+.nav-page:focus {
+    color: #404bbf;
+}
+
 .a-address {
     color: #434455;
     font-family: 'Roboto', sans-serif;
@@ -52,11 +61,16 @@ a {
     letter-spacing: 0.32px;
 }
 
+.a-address:hover,
+.a-address:focus {
+    color: #404bbf;
+}
+
 .section-one {
     background: #2E2F42;
 }
 
-.section-h1 {
+.section-h-hero {
     color:  #FFF;
     font-family:'Roboto', sans-serif;
     font-size: 56px;
@@ -76,12 +90,18 @@ a {
     letter-spacing: 0.64px;
     border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
-.section-h2 {
+
+.section-button:hover,
+.section-button:focus {
+    background-color: #404BBF;
+}
+
+.section-h-two {
     color:  #2E2F42;
+    text-align: center;
     font-family: 'Roboto',sans-serif;
     font-size: 36px;
     font-style: normal;
@@ -91,7 +111,7 @@ a {
     text-transform: capitalize;
 }
 
-.sec2-ul-h3 {
+.ul-h-tree {
     color: #2E2F42;
     font-family: 'Roboto',sans-serif;
     font-size: 20px;
@@ -101,7 +121,7 @@ a {
     letter-spacing: 0.4px;
 }
 
-.sec2-ul-p {
+.ul-p {
     color:#434455;
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
@@ -114,7 +134,7 @@ a {
 }
 
 
-.sec-ul-h3 {
+.h-tree-li {
     color:  #2E2F42;
     font-family: 'Roboto',sans-serif;
     font-size: 20px;
@@ -124,8 +144,11 @@ a {
     letter-spacing: 0.4px;
 }
 
+.ul-li {
+    background-color: #FFFFFF;
+}
 
-.sec-ul-p {
+.p-li {
     color:  #434455;
     font-family: 'Roboto',sans-serif;
     font-size: 16px;
@@ -145,6 +168,6 @@ a {
     letter-spacing: 0.32px;
 }
 
-footer {
+.head-footer {
     background: #2E2F42;
 }
